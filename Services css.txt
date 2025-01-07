@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*THE ENTIRE PRODUCT SECTION*/
+  .product-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+  }
+  
+  .product-number {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .product-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .product-dropdown {
+    cursor: pointer;
+    display: flex;
+    align-items: right;
+  }
+  
+  .expand-text, .close-text {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .expand-icon {
+    font-size: 20px;
+    color: green;
+  }
+  
+  .close-icon {
+    font-size: 20px;
+    color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: flex-start;  /* Align the columns to the left */
+    gap: 10px;
+    margin-left: auto;  /* Push the columns to the right */
+  }
+  
+  .column-a {
+    flex: 0.8;
+    text-align: right;
+  }
+  
+  .process-image {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .column-b {
+    flex: 0.5;
+    padding: 0;  /* Remove any extra padding */
+    margin: 0;   /* Remove any extra margin */
+  }
+  
+  .expandable {
+    display: flex;
+    flex-direction: column;  /* Ensure content is stacked vertically */
+  }
+  
+  .process-item {
+    cursor: pointer;
+    margin-bottom: -19px;
+    display: flex;
+    flex-direction: column;  /* Stack the text and subtext vertically */
+    align-items: flex-start;  /* Align to the left for better layout */
+  }
+  
+  .process-header {
+    display: flex;  /* Align text and icon horizontally */
+    align-items: center;  /* Ensure text and icon are vertically aligned */
+  }
+  
+  .process-details {
+    display: none;
+    margin-top: -25px;
+    word-wrap: break-word;
+    max-width: 600px;
+    padding-left: 20px;  /* Indentation for the subtext */
+    opacity: 0;  /* Make it invisible initially */
+    height: 0;   /* Start with height 0 */
+    overflow: hidden; /* Prevents text from being visible when collapsed */
+    transition: opacity 3s ease, height 3s ease; /* Add smooth transition for opacity and height */
+  }
+  
+  .process-details.show {
+    display: block; /* Show the element */
+    opacity: 1;     /* Make it visible */
+    height: auto;   /* Expand to the natural height of the content */
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-left: 10px;  /* Add space between the text and the icon */
+    cursor: pointer;
+  }
+  
+  .process-item:hover {
+    
+  }
+ 
+  /*THIS IS THE END OF THE PRODUCT SECTION*/
+
+
+
+
+  /*THIS IS THE INERACTIVE SECTION*/
+
+/*THE ENTIRE PRODUCT SECTION*/
+  .Int-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+  }
+  
+  .Int-number {
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .Int-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .Int-dropdown {
+    cursor: pointer;
+    display: flex;
+    align-items: right;
+  }
+  
+  .expand-text, .close-text {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .expand-icon {
+    font-size: 20px;
+    color: green;
+  }
+  
+  .close-icon {
+    font-size: 20px;
+    color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: flex-start;  /* Align the columns to the left */
+    gap: 10px;
+    margin-left: auto;  /* Push the columns to the right */
+  }
+  
+  .column-a {
+    flex: 0.8;
+    text-align: right;
+  }
+  
+  .process-image {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .column-b {
+    flex: 0.5;
+    padding: 0;  /* Remove any extra padding */
+    margin: 0;   /* Remove any extra margin */
+  }
+  
+  .expandable {
+    display: flex;
+    flex-direction: column;  /* Ensure content is stacked vertically */
+  }
+  
+  .process-item {
+    cursor: pointer;
+    margin-bottom: -19px;
+    display: flex;
+    flex-direction: column;  /* Stack the text and subtext vertically */
+    align-items: flex-start;  /* Align to the left for better layout */
+  }
+  
+  .process-header {
+    display: flex;  /* Align text and icon horizontally */
+    align-items: center;  /* Ensure text and icon are vertically aligned */
+  }
+  
+  .process-details {
+    display: none;
+    margin-top: -25px;
+    word-wrap: break-word;
+    max-width: 600px;
+    padding-left: 20px;  /* Indentation for the subtext */
+    opacity: 0;  /* Make it invisible initially */
+    height: 0;   /* Start with height 0 */
+    overflow: hidden; /* Prevents text from being visible when collapsed */
+    transition: opacity 3s ease, height 3s ease; /* Add smooth transition for opacity and height */
+  }
+  
+  .process-details.show {
+    display: block; /* Show the element */
+    opacity: 1;     /* Make it visible */
+    height: auto;   /* Expand to the natural height of the content */
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-left: 10px;  /* Add space between the text and the icon */
+    cursor: pointer;
+  }
+  
+  .process-item:hover {
+    
+  }
+
+
+  /*THIS IS THE HEADER CSS CODE OF THE SERVICES SECTION*/
+
+
+   .services-container {
+    max-width: 940px;
+    margin-left: 200px;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .services-wrapper {
+    display: flex;
+    align-items: center; /* Aligns all items vertically in the center */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 20px 70px;
+  }
+  
+  .services-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .services-animation-wrapper {
+    display: flex; /* Ensures the heading line stays on the same line */
+    flex-direction: row; /* Ensure the heading is laid out horizontally */
+    align-items: center; /* Vertically align text */
+  }
+  
+  .services-heading-line-one, .services-heading-line-two {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    line-height: 0.7
+  }
+  
+  .services-word-one, .services-word-three, .services-word-four {
+    display: inline-block;  /* Ensures each span stays on the same line */
+    white-space: nowrap; /* Prevents the text from breaking into the next line */
+  }
+  
+  .services-contact-sub-title {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-left: 10px;
+  }
+  
+  .max-width {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services-heading-line-one, .services-heading-line-two {
+    margin-bottom: 20px;
+  }
+  
+  .no-wrap {
+    white-space: nowrap;
+  }
+  
+  
+  

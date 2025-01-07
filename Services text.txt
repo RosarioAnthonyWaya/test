@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Product Design</title>
+</head>
+<body>
+<!--SERVICES SECTION -->
+<div class="services-container container w-container">
+    <div class="services-wrapper">
+      <!-- Services Title -->
+      <p data-w-id="90337920-0427-5487-9893-ded60492783e" 
+      class="services-title">
+        [SERVICES]
+      </p>
+      <!-- Animation Wrapper -->
+      <div class="services-animation-wrapper">
+        <!-- First Heading Line -->
+        <div class="services-heading-line-one">
+          <h1>
+            <span class="services-word-one">
+              We are <br>
+              expert on
+            </span>
+                  </h1>
+        </div>
+        
+      <!-- Subtitle/Contact Information -->
+      <p class="services-contact-sub-title">
+        Contact us today to start a conversation about your 
+        <br>project and discover how we can help you.
+      </p>
+    </div>
+  </div>
+  
+
+
+
+
+
+    <!--PRODUCT DESIGN SECTION-->
+  <div class="product-header">
+    <span class="product-number">01</span>
+    <span class="product-title">Product Design</span>
+    <span class="Product-dropdown" onclick="toggleDropdown()">
+      <span class="expand-text">Expand</span>
+      <i class="expand-icon">+</i>
+      <span class="close-text" style="display:none;">Close</span>
+      <i class="close-icon" style="display:none;">&times;</i>
+    </span>
+  </div>
+
+  <!-- Dropdown Content -->
+  <div class="content">
+    <div class="dropdown-content">
+      <div class="columns">
+        <!-- Column A -->
+        <div class="column-a">
+          <h3>Our Process</h3>
+          <img src="your-image-path.jpg" alt="Process Image" class="process-image">
+        </div>
+
+        <!-- Column B -->
+        <div class="column-b">
+          <div class="expandable">
+            <!-- Process Item 1 - Strategy -->
+            <div class="process-item" onclick="toggleProcess('process-1')">
+              <div class="process-header">
+                <p>(a) Strategy</p>
+                <span class="icon" id="icon-process-1">+</span>
+              </div>
+              <div id="process-1" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 2 - Structure -->
+            <div class="process-item" onclick="toggleProcess('process-2')">
+              <div class="process-header">
+                <p>(b) Structure</p>
+                <span class="icon" id="icon-process-2">+</span>
+              </div>
+              <div id="process-2" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 3 - Design -->
+            <div class="process-item" onclick="toggleProcess('process-3')">
+              <div class="process-header">
+                <p>(c) Design</p>
+                <span class="icon" id="icon-process-3">+</span>
+              </div>
+              <div id="process-3" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 4 - Develop -->
+            <div class="process-item" onclick="toggleProcess('process-4')">
+              <div class="process-header">
+                <p>(d) Develop</p>
+                <span class="icon" id="icon-process-4">+</span>
+              </div>
+              <div id="process-4" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 5 - Hand-over -->
+            <div class="process-item" onclick="toggleProcess('process-5')">
+              <div class="process-header">
+                <p>(e) Hand-over</p>
+                <span class="icon" id="icon-process-5">+</span>
+              </div>
+              <div id="process-5" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+   <!--Interactive DESIGN SECTION-->
+   <div class="Int-header">
+    <span class="Int-number">01</span>
+    <span class="Int-title">Product Design</span>
+    <span class="Int-dropdown" onclick="toggleDropdown()">
+      <span class="expand-text">Expand</span>
+      <i class="expand-icon">+</i>
+      <span class="close-text" style="display:none;">Close</span>
+      <i class="close-icon" style="display:none;">&times;</i>
+    </span>
+  </div>
+
+  <!-- Dropdown Content -->
+  <div class="content">
+    <div class="dropdown-content">
+      <div class="columns">
+        <!-- Column A -->
+        <div class="column-a">
+          <h3>Our Process</h3>
+          <img src="your-image-path.jpg" alt="Process Image" class="process-image">
+        </div>
+
+        <!-- Column B -->
+        <div class="column-b">
+          <div class="expandable">
+            <!-- Process Item 1 - Strategy -->
+            <div class="process-item" onclick="toggleProcess('process-1')">
+              <div class="process-header">
+                <p>(a) Strategy</p>
+                <span class="icon" id="icon-process-1">+</span>
+              </div>
+              <div id="process-1" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 2 - Structure -->
+            <div class="process-item" onclick="toggleProcess('process-2')">
+              <div class="process-header">
+                <p>(b) Structure</p>
+                <span class="icon" id="icon-process-2">+</span>
+              </div>
+              <div id="process-2" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 3 - Design -->
+            <div class="process-item" onclick="toggleProcess('process-3')">
+              <div class="process-header">
+                <p>(c) Design</p>
+                <span class="icon" id="icon-process-3">+</span>
+              </div>
+              <div id="process-3" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 4 - Develop -->
+            <div class="process-item" onclick="toggleProcess('process-4')">
+              <div class="process-header">
+                <p>(d) Develop</p>
+                <span class="icon" id="icon-process-4">+</span>
+              </div>
+              <div id="process-4" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+
+            <!-- Process Item 5 - Hand-over -->
+            <div class="process-item" onclick="toggleProcess('process-5')">
+              <div class="process-header">
+                <p>(e) Hand-over</p>
+                <span class="icon" id="icon-process-5">+</span>
+              </div>
+              <div id="process-5" class="process-details">
+                <p>Our design agency is powered by a dynamic team of visionary designers, meticulous researchers, pioneering 3D artists.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

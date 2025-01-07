@@ -1,0 +1,27 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const typewriterText = document.getElementById("typewriter-text");
+    const words = ["of startups", "in Africa", "in Nigeria"];  // Array of words to display
+    let currentWordIndex = 0;
+
+    // Function to start the typewriting effect
+    function typeWriter() {
+        typewriterText.textContent = ""; // Clear text
+        let word = words[currentWordIndex];
+        let charIndex = 0;
+
+        // Type the current word character by character
+        let typingInterval = setInterval(function () {
+            typewriterText.textContent += word.charAt(charIndex);
+            charIndex++;
+            if (charIndex === word.length) {
+                clearInterval(typingInterval);
+                setTimeout(function () {
+                    currentWordIndex = (currentWordIndex + 1) % words.length;  // Cycle through words
+                    typeWriter();  // Start typing the next word
+                }, 1000);  // Pause before starting the next word
+            }
+        }, 100);  // Adjust typing speed (milliseconds per character)
+    }
+
+    typeWriter();  // Start the effect
+});
